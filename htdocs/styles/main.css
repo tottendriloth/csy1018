@@ -9,24 +9,23 @@ h1{
     width: 240px;
 }
 
-img{
+.container{
+    text-align: center;
+}
+#profilepic{
+    transition: border-radius 0.5s ease-in, filter 1s ease-in-out, width 1s, height 1s, transform 1s;
     border-style: none;
     border-radius: 100%;
     filter: grayscale(0);
-
     width: 250px;
     height : 250px;
-}
 
-.container:hover{
-    filter: grayscale(1);
-    border-style: none;
-    border-radius: 100%;
-    transition: background-size 0.3s ease;
-    filter: grayscale(1);
-    transition: background-size 0.3s ease;
 }
+#profilepic:hover{
+    filter: grayscale(1);
+    border-radius: 13%;
+    width: 500px;
+    height : 500px;
+    transform: rotate(360deg);
 
-body{
-    text-align: center;
 }
